@@ -1,0 +1,82 @@
+{
+    "columns": [
+        "age",
+        "workclass",
+        "fnlwgt",
+        "education",
+        "education-num",
+        "marital-status",
+        "occupation",
+        "relationship",
+        "race",
+        "sex",
+        "capital-gain",
+        "capital-loss",
+        "hours-per-week",
+        "native-country"
+    ],
+    "rows": 24420,
+    "cols": 14,
+    "target_is_numeric": false,
+    "columns_info": {
+        "age": [
+            "scale"
+        ],
+        "workclass": [
+            "missing_values",
+            "categorical",
+            "few_categories"
+        ],
+        "fnlwgt": [
+            "scale"
+        ],
+        "education": [
+            "categorical",
+            "few_categories"
+        ],
+        "education-num": [
+            "scale"
+        ],
+        "marital-status": [
+            "categorical",
+            "few_categories"
+        ],
+        "occupation": [
+            "missing_values",
+            "categorical",
+            "few_categories"
+        ],
+        "relationship": [
+            "categorical",
+            "few_categories"
+        ],
+        "race": [
+            "categorical",
+            "few_categories"
+        ],
+        "sex": [
+            "categorical",
+            "few_categories"
+        ],
+        "capital-gain": [
+            "scale"
+        ],
+        "capital-loss": [
+            "scale"
+        ],
+        "hours-per-week": [
+            "scale"
+        ],
+        "native-country": [
+            "missing_values",
+            "categorical",
+            "many_categories"
+        ]
+    },
+    "target_info": [
+        "convert_0_1"
+    ],
+    "n_features": 14,
+    "is_sample_weighted": false,
+    "n_classes": 2
+}
