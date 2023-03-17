@@ -1,6 +1,12 @@
-path: /content/datasets/classes
-train: images/train
-val: images/train
+path: /content/datasets/cat_dog_person  # dataset root dir
+train: images/train  # train images (relative to 'path') 128 images
+val: images/train    # val images (relative to 'path') 128 images
+test:  # test images (optional)
 
-nc: 3
-names: ['human', 'dog', 'car']
+# Classes
+nc: 3  # number of classes
+names: ['human', 'dog', 'car']  # class names
+
+
+# Download script/URL (optional)
+download: https://github.com/OhYesLee/KT_python_jupyter_notebook/blob/main/datasets.zip
