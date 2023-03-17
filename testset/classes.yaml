@@ -9,4 +9,4 @@ names: ['cat', 'dog', 'person']  # class names
 
 
 # Download script/URL (optional)
-download: https://github.com/OhYesLee/KT_python_jupyter_notebook/blob/main/testset/datasets.zip
+download: https://github.com/OhYesLee/KT_python_jupyter_notebook/blob/main/testset/classes.zip
